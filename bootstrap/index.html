@@ -1,21 +1,569 @@
-<! DOCTYPE html>
-<html>
-<head>
-<title> Bootstrap 101 template</title>
-<meta name=" viewport " content=" width = device -width , initial -scale=1,0">
-<! -- Bootstrap -->
-<!--<link href="css / bootstrap .min .css" rel="stylesheet" media="screen">
-  -->
-</head>
-<body>
-<h1>Helloechen</h1>
-<script src=" http :// code . jquery . com / jquery .js"></script>
-<script src=" js/ bootstrap . min .js"></script>
-
-</body>
-
-</html>
-
-
-
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"				
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 				
+<html xmlns="http://www.w3.org/1999/xhtml"> 				
+<head>	<title>	Hausarbeit November		</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 				
+<link rel="stylesheet" type="text/css" href="hausarbeit.css"/>				
+</head>				
+<body>				
+<h1>		HTML 1.0 strict Elemente		</h1>
+				
+<table id="tabelle1">				
+				
+<thead id="th1">				
+<tr>				
+<th id="spalte0">		Element Einleitungstag		</th>
+<th id="spalte1">		Element Endtag		</th>
+<th id="spalte2">		Elementbeschreibung		</th>
+<th id="spalte3">		Inline-/Blockelement		</th>
+<th id="spalte4">		semantisch/nicht-semantisch		</th>
+</tr>				
+</thead>				
+<tbody id="body1">				
+<tr>				
+<td>	&lt; 	a	&gt; 	</td>
+<td>	&lt; 	/a	&gt; 	</td>
+<td>		Verweis (Hyperlink) und Anker f&uuml;r Verweise		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	abbr	&gt; 	</td>
+<td>	&lt; 	/abbr	&gt; 	</td>
+<td>		Abk&uuml;rzung		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	acronym	&gt; 	</td>
+<td>	&lt; 	/acronym	&gt; 	</td>
+<td>		Akronym		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	address	&gt; 	</td>
+<td>	&lt; 	/address	&gt; 	</td>
+<td>		Kontaktangabe zum Autor eines Inhalts (Credits)		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	area		</td>
+<td>			/&gt; 	</td>
+<td>		Verweis-sensitiver Bereich in einer Image-Map-Grafik		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	b	&gt; 	</td>
+<td>	&lt; 	/b	&gt; 	</td>
+<td>		Stilistische Hervorhebung im Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		 nicht-semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	base		</td>
+<td>			/&gt; 	</td>
+<td>		Basis-URL f&uuml;r Referenzen		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	bdo	&gt; 	</td>
+<td>	&lt; 	/bdo	&gt; 	</td>
+<td>		Richtungs&auml;nderung bei bidirektionalem Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	big	&gt; 	</td>
+<td>	&lt; 	/big	&gt; 	</td>
+<td>		Gro&szlig;schrift		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		 nicht-semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	blockquote	&gt; 	</td>
+<td>	&lt; 	/blockquote	&gt; 	</td>
+<td>		Zitat in Form eines eigenen Textabsatzes		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	body	&gt; 	</td>
+<td>	&lt; 	/body	&gt; 	</td>
+<td>		Inhaltsbereich eines HTML-Dokuments		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	br		</td>
+<td>			/&gt; 	</td>
+<td>		Erzwungener Zeilenumbruch an der betreffenden Stelle		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	button	&gt; 	</td>
+<td>	&lt; 	/button	&gt; 	</td>
+<td>		Schaltfl&auml;che in einem Formular		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	caption	&gt; 	</td>
+<td>	&lt; 	/caption	&gt; 	</td>
+<td>		Tabellen&uuml;berschrift / -unterschrift		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	cite	&gt; 	</td>
+<td>	&lt; 	/cite	&gt; 	</td>
+<td>		Zitat innerhalb eines Absatzes		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	code	&gt; 	</td>
+<td>	&lt; 	/code	&gt; 	</td>
+<td>		Quelltext-Auszug innerhalb eines Absatzes		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	col		</td>
+<td>			/&gt; 	</td>
+<td>		Tabellenspalte		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	colgroup	&gt; 	</td>
+<td>	&lt; 	/colgroup	&gt; 	</td>
+<td>		Gruppe von Tabellenspalten		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	dd	&gt; 	</td>
+<td>	&lt; 	/dd	&gt; 	</td>
+<td>		detaillierter Inhalt zu einem dt-Element		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	del	&gt; 	</td>
+<td>	&lt; 	/del	&gt; 	</td>
+<td>		gel&ouml;schter Inhalt (&Auml;nderungsmarkierung)		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	dfn	&gt; 	</td>
+<td>	&lt; 	/dfn	&gt; 	</td>
+<td>		Definition innerhalb eines Absatzes		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	div	&gt; 	</td>
+<td>	&lt; 	/div	&gt; 	</td>
+<td>		Allgemeiner Bereich		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	dl	&gt; 	</td>
+<td>	&lt; 	/dl	&gt; 	</td>
+<td>		Liste mit dt- und dd-Elementen, f&uuml;r Definitionslisten, Dialoge usw		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	dt	&gt; 	</td>
+<td>	&lt; 	/dt	&gt; 	</td>
+<td>		Zu definierender Ausdruck in einer Definitionsliste, 		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	em	&gt; 	</td>
+<td>	&lt; 	/em	&gt; 	</td>
+<td>		emphatischer Ausdruck innerhalb eines Absatzes 		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	fieldset	&gt; 	</td>
+<td>	&lt; 	/fieldset	&gt; 	</td>
+<td>		Gruppe von Elementen in einem Formular,		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	form	&gt; 	</td>
+<td>	&lt; 	/form	&gt; 	</td>
+<td>		Formular, Dialog		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	h1	&gt; 	</td>
+<td>	&lt; 	/h1	&gt; 	</td>
+<td>		&Uuml;berschrift 1. Ordnung		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	h2	&gt; 	</td>
+<td>	&lt; 	/h2	&gt; 	</td>
+<td>		&Uuml;berschrift 2. Ordnung		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	h3	&gt; 	</td>
+<td>	&lt; 	/h3	&gt; 	</td>
+<td>		&Uuml;berschrift 3. Ordnung		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	h4	&gt; 	</td>
+<td>	&lt; 	/h4	&gt; 	</td>
+<td>		&Uuml;berschrift 4. Ordnung		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	h5	&gt; 	</td>
+<td>	&lt; 	/h5	&gt; 	</td>
+<td>		&Uuml;berschrift 5. Ordnung		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	h6	&gt; 	</td>
+<td>	&lt; 	/h6	&gt; 	</td>
+<td>		&Uuml;berschrift 6. Ordnung		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	head	&gt; 	</td>
+<td>	&lt; 	/head	&gt; 	</td>
+<td>		Kopfbereich eines HTML-Dokuments		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	hr		</td>
+<td>			/&gt; 	</td>
+<td>		Trennlinie		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	html	&gt; 	</td>
+<td>	&lt; 	/html	&gt; 	</td>
+<td>		Dokumentelement von HTML-Dokumenten		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	i 	&gt; 	</td>
+<td>	&lt; 	/i 	&gt; 	</td>
+<td>		spezieller Ausdruck im Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	img		</td>
+<td>			/&gt; 	</td>
+<td>		Referenzierte und eingebettete Grafik		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	input		</td>
+<td>			/&gt; 	</td>
+<td>		Formularelement		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	ins	&gt; 	</td>
+<td>	&lt; 	/ins	&gt; 	</td>
+<td>		Eingef&uuml;gter Inhalt		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	kbd	&gt; 	</td>
+<td>	&lt; 	/kbd	&gt; 	</td>
+<td>		Darstellung eines &uuml;ber Tastatur einzugebenden Textes im Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	label	&gt; 	</td>
+<td>	&lt; 	/label	&gt; 	</td>
+<td>		Beschriftungstext eines Formularfeldes		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	legend	&gt; 	</td>
+<td>	&lt; 	/legend	&gt; 	</td>
+<td>		&Uuml;berschrift f&uuml;r eine fieldset-Gruppe von Elementen in einem Formular		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	li	&gt; 	</td>
+<td>	&lt; 	/li	&gt; 	</td>
+<td>		Listenpunkt in einer ul-, ol- oder menu-Liste		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	link		</td>
+<td>			/&gt; 	</td>
+<td>		Logische Beziehungen der aktuellen Webseite zu anderen Webseiten		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	map	&gt; 	</td>
+<td>	&lt; 	/map	&gt; 	</td>
+<td>		Bereich f&uuml;r verweis-sensitive Grafiken		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	meta		</td>
+<td>			/&gt; 	</td>
+<td>		Meta-Angabe f&uuml;r nicht im Inhalt sichtbare Dokumentinformationen oder Info f&uuml;r Webserver		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	noscript	&gt; 	</td>
+<td>	&lt; 	/noscript	&gt; 	</td>
+<td>		Bereich f&uuml;r Inhalte, die angezeigt werden, wenn JavaScript im Browser deaktiviert oder nicht verf&uuml;gbar ist		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	object	&gt; 	</td>
+<td>	&lt; 	/object	&gt; 	</td>
+<td>		Eingebettetes Objekt, geeignet f&uuml;r spezielle Multimedia-Objekte		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	ol	&gt; 	</td>
+<td>	&lt; 	/ol	&gt; 	</td>
+<td>		Geordnete (z.B. nummerierte) Liste		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	optgroup	&gt; 	</td>
+<td>	&lt; 	/optgroup	&gt; 	</td>
+<td>		Gruppe von Auswahlm&ouml;glichkeiten in einer Auswahlliste		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	option	&gt; 	</td>
+<td>	&lt; 	/option	&gt; 	</td>
+<td>		Auswahlm&ouml;glichkeit in einer Auswahlliste		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	p	&gt; 	</td>
+<td>	&lt; 	/p	&gt; 	</td>
+<td>		Paragraph, Absatz		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	param		</td>
+<td>			/&gt; 	</td>
+<td>		Parameter eines Objekts bei object-Element		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	pre	&gt; 	</td>
+<td>	&lt; 	/pre	&gt; 	</td>
+<td>		Pr&auml;formatierter Text		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		nein		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	q	&gt; 	</td>
+<td>	&lt; 	/q	&gt; 	</td>
+<td>		W&ouml;rtliche Rede in einem Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	samp	&gt; 	</td>
+<td>	&lt; 	/samp	&gt; 	</td>
+<td>		Beispieltext in einem dokumentierenden Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	script	&gt; 	</td>
+<td>	&lt; 	/script	&gt; 	</td>
+<td>		Scriptbereich f&uuml;r JavaScript und andere Scriptsprachen		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	select	&gt; 	</td>
+<td>	&lt; 	/select	&gt; 	</td>
+<td>		Auswahlliste in einem Formular		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	small	&gt; 	</td>
+<td>	&lt; 	/small	&gt; 	</td>
+<td>		kleiner dargestellter Text als Normalschrift		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		 nicht-semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	span	&gt; 	</td>
+<td>	&lt; 	/span	&gt; 	</td>
+<td>		allgemeiner Bereich innerhalb eines Absatzes		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	strong	&gt; 	</td>
+<td>	&lt; 	/strong	&gt; 	</td>
+<td>		stark betonter Inhalt im Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	style	&gt; 	</td>
+<td>	&lt; 	/style	&gt; 	</td>
+<td>		Bereich f&uuml;r Stylesheet-Definitionen		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	sub	&gt;	</td>
+<td>	&lt; 	/sub	&gt;	</td>
+<td>		Tiefgestellter Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	sup	&gt; 	</td>
+<td>	&lt; 	/sup	&gt; 	</td>
+<td>		Hochgestellter Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	table	&gt; 	</td>
+<td>	&lt; 	/table	&gt; 	</td>
+<td>		Tabelle		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	tbody	&gt; 	</td>
+<td>	&lt; 	/tbody	&gt; 	</td>
+<td>		Tabellenk&ouml;rper mit den eigentlichen Daten		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	td	&gt; 	</td>
+<td>	&lt; 	/td	&gt; 	</td>
+<td>		Tabellenzelle		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	textarea	&gt; 	</td>
+<td>	&lt; 	/textarea	&gt; 	</td>
+<td>		Mehrzeiliger Eingabebereich in einem Formular		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	tfoot	&gt; 	</td>
+<td>	&lt; 	/tfoot	&gt; 	</td>
+<td>		Fu&szlig;bereich in einer Tabelle		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	th	&gt; 	</td>
+<td>	&lt; 	/th	&gt; 	</td>
+<td>		Tabellenkopfzelle		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	thead	&gt; 	</td>
+<td>	&lt; 	/thead	&gt; 	</td>
+<td>		Kopfbereich einer Tabelle		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	title	&gt; 	</td>
+<td>	&lt; 	/title	&gt; 	</td>
+<td>		Titel eines HTML-Dokuments		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		 nicht-semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	tr	&gt; 	</td>
+<td>	&lt; 	/tr	&gt; 	</td>
+<td>		Tabellenzeile		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	tt	&gt; 	</td>
+<td>	&lt; 	/tt	&gt; 	</td>
+<td>		Fernschreiber-Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	ul	&gt; 	</td>
+<td>	&lt; 	/ul	&gt; 	</td>
+<td>		Unsortierte Liste 		</td>
+<td class="class-spalte3">		Blockelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+<tr>				
+<td>	&lt; 	var	&gt; 	</td>
+<td>	&lt; 	/var	&gt; 	</td>
+<td>		Variabler Name in einem dokumentierenden Text		</td>
+<td class="class-spalte3">		Inlineelement		</td>
+<td class="class-spalte4">		semantisch		</td>
+</tr>				
+</tbody>				
+</table>				
+<p>				
+<a href="http://www.w3.org"><img src="http://www.w3.org/Icons/valid-xhtml10.png" alt="xhtml-check"/></a>				
+<a href="http://www.w3.org"><img src="http://www.w3.org/Icons/valid-css2-blue.png" alt="css-check"/></a>				
+</p>				
+</body>				
+</html>				
