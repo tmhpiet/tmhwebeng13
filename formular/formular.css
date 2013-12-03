@@ -1,0 +1,21 @@
+/* Hausarbeit Formular */
+
+h1
+{
+font-family:tahoma;
+text-decoration:underline;
+text-align:center;
+}
+
+.suche
+{
+width:360px;
+margin-left:320px;
+margin-top:100px;
+margin-bottom:100px;
+}
+
+.img
+{
+margin-left:320px;
+}
