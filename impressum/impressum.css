@@ -1,0 +1,83 @@
+/*hausarbeit xhtml 1.0 strict*/
+
+#tabelle1
+
+{
+border:1px solid black;
+margin-left:3px;
+}
+
+
+
+#th1 th
+{
+text-align:center;
+border:1px solid black;
+font-family:tahoma;
+font-size:11pt;
+
+}
+
+
+#body1 td
+{
+border:1px solid black;
+font-family:tahoma;
+font-size:10pt;
+
+}
+
+
+#spalte0
+{
+width:100px;
+background-color:#F0F0F0;
+}
+
+#spalte1
+{
+width:120px;
+background-color:#F0F0F0;
+}
+
+
+#spalte2
+{
+width:480px;
+background-color:#F0F0F0;
+}
+
+#spalte3
+{
+width:170px;
+background-color:#F0F0F0;
+
+}
+
+#spalte4
+{
+width:60px;
+background-color:#F0F0F0;
+}
+
+.class-spalte3
+{
+width:200px;
+text-align:center;
+
+}
+
+.class-spalte4
+{
+width:250px;
+padding-left:100px;
+}
+
+
+h1
+
+{
+font-family:tahoma;
+text-decoration:underline;
+text-align: center;
+}
